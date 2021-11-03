@@ -1,0 +1,75 @@
+.container {
+  margin: 0 0 140px 0;
+}
+
+.tariffs {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin: 80px 0 0 0;
+}
+
+.tariffCard {
+  position: relative;
+
+  width: 362px;
+  height: 508px;
+
+  padding: 50px 53px 52px 50px;
+  border-radius: 5px;
+}
+
+.standard {
+  border: 1px solid #ededed;
+  filter: drop-shadow(0px 20px 40px rgba(191, 191, 191, 0.16));
+}
+
+.highlight {
+  box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+}
+
+.cardTitle {
+  margin: 0 0 21px;
+
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+
+  text-align: center;
+
+  color: #313131;
+}
+
+.cardPrice {
+  margin: 0 0 24px;
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  color: #313131;
+
+  text-align: center;
+}
+
+.optionsList {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  padding-left: 0;
+
+  color: #514040;
+  list-style: url(../../assets/icons/point.svg);
+}
+
+.optionsList > li {
+  margin: 0 0 16px;
+}
+
+.buttonPosition {
+  position: absolute;
+  bottom: 52px;
+}
