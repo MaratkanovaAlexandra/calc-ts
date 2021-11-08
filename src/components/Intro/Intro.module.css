@@ -29,13 +29,20 @@
 }
 
 .navItem {
+  cursor: pointer;
   font-weight: 500;
+  transition: 0.3s;
+}
+
+.navItem:hover {
+  color: #49ad09;
 }
 
 .logo {
   font-family: "Gilroy";
   font-weight: 800;
   flex: 39.7% 0 0;
+  cursor: default;
 }
 
 .title {
@@ -89,6 +96,12 @@
   line-height: 21px;
 
   color: #514040;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.videoBtn:hover {
+  color: #49ad09;
 }
 
 .underLine {

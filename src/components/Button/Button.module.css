@@ -7,6 +7,18 @@
   font-family: "Gilroy";
   font-size: 18px;
   line-height: 21px;
+
+  cursor: pointer;
+  will-change: transform;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(0.95);
 }
 
 .big {
@@ -17,7 +29,7 @@
   width: 152px;
 }
 
-.grean {
+.green {
   background-color: #49ad09;
   box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1),
     0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259),
@@ -27,6 +39,20 @@
     0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
   border-color: #49ad09;
   color: #fff;
+}
+
+.green:hover {
+  background-color: #76c744;
+  border-color: #76c744;
+}
+
+.green:active {
+  box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.2),
+    0px 64.8148px 46.8519px rgba(49, 49, 49, 0.1859259),
+    0px 38.5185px 25.4815px rgba(49, 49, 49, 0.1707407),
+    0px 20px 13px rgba(49, 49, 49, 0.16),
+    0px 8.14815px 6.51852px rgba(49, 49, 49, 0.1492593),
+    0px 1.85185px 3.14815px rgba(49, 49, 49, 0.1340741);
 }
 
 .white {

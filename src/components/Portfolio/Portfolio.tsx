@@ -12,7 +12,7 @@ const Portfolio: FC = () => {
       <PageLayout className={styles.center}>
         <SectionHeader title="Our Portfolio" subTitle="Our Work" />
         <ExampleContainer />
-        <Button text="All Projects" type="grean" size="big" />
+        <Button text="All Projects" type="green" size="big" />
       </PageLayout>
     </div>
   );

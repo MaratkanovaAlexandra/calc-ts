@@ -5,7 +5,7 @@ import styles from './Button.module.css';
 
 type ButtonProps = {
   text: string,
-  type: 'grean'|'white',
+  type: 'green'|'white',
   size: 'big'|'small',
   className?: string,
 }

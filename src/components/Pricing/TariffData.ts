@@ -15,7 +15,7 @@ const Tariffs: TariffsDataType[] = [
     title: 'For Teams',
     price: 2999,
     optionsMode: 'extended',
-    buttonMode: 'grean'
+    buttonMode: 'green'
   },
   {
     id: 3,

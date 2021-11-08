@@ -4,7 +4,7 @@ type TariffsDataType = {
   title: string,
   price: number|'Custom',
   optionsMode: 'standard'|'extended',
-  buttonMode: 'grean'|'white',
+  buttonMode: 'green'|'white',
 }
 
 export default TariffsDataType;

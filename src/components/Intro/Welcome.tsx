@@ -15,7 +15,7 @@ const Welcome: FC = () => {
         Squared heel and toe. Pointed toes. Padded insole with geometrical design. 
       </p>
       <div className={styles.btnContainer}>
-        <Button text="Contact Us" type="grean" size="big"/>
+        <Button text="Contact Us" type="green" size="big"/>
         <VideoButton text="Watch Video"/>
       </div>
     </>

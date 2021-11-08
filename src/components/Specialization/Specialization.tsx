@@ -12,7 +12,7 @@ const Specialization: FC = () => {
       <PageLayout className={styles.center}>
         <SectionHeader subTitle="What we Do?" title="Our Specialization"/>
         <SpecializationContainer />
-        <Button text="Learn More" type="grean" size="big" />
+        <Button text="Learn More" type="green" size="big" />
       </PageLayout>
     </div>
   );
