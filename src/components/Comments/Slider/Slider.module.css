@@ -1,0 +1,26 @@
+.slider {
+  position: relative;
+  height: 540px;
+
+  margin: 80px 0 0;
+}
+
+.sliderBack {
+  position: absolute;
+  height: 100%;
+  width: 76.23%;
+
+  top: 0;
+  left: 139px;
+
+  z-index: -1;
+  background: #f2f2f2;
+}
+
+.sliderBody {
+  padding: 103px 0 0 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}

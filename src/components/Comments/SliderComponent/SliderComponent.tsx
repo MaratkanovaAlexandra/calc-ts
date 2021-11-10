@@ -1,24 +1,25 @@
 import React, { FC } from 'react';
-import styles from './Comments.module.css';
 
-import SliderData from "./SliderDataType";
-import Star from '../../assets/icons/star.svg';
+import SliderData from "../SliderData/SliderDataType";
+import Star from '../../../assets/icons/star.svg';
+
+import styles from './SliderComponent.module.css';
 
 type SliderDataProps = {
   key? :number,
   data: SliderData
 }
  
+const getStarts = (stars: number): number[] => {
+  const starsArray:number[] = []
+  for (let i = 0; i<stars; i++) {
+    starsArray.push(i);
+  }
+  return starsArray;
+}
+
 const SliderComponent: FC<SliderDataProps> = (props) => {
   const { title, text, stars, autor } = props.data;
-
-  const getStarts = (stars: number): number[] => {
-    const starsArray:number[] = []
-    for (let i = 0; i<stars; i++) {
-      starsArray.push(i);
-    }
-    return starsArray;
-  }
 
   return (
     <div className={styles.sliderComponent}>

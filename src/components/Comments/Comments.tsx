@@ -1,9 +1,10 @@
 import React, { FC } from 'react';
-import styles from './Comments.module.css';
 
 import PageLayout from '../PageLayout';
 import SectionHeader from '../SectionHeader';
 import Slider from './Slider';
+
+import styles from './Comments.module.css';
  
 const Comments: FC = () => {
   return (
