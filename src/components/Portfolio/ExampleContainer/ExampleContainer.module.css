@@ -1,0 +1,28 @@
+.exampleContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 1009px;
+  margin: 80px auto 10px;
+}
+
+@media (max-width: 1020px) {
+  .exampleContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 968px) {
+  .exampleContainer {
+    justify-content: center;
+  }
+}
+
+.leftColomn {
+  padding: 0 0 55px;
+}
+
+.rightColomn {
+  padding: 55px 0 0 0;
+}

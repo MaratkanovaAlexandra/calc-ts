@@ -1,17 +1,18 @@
 import React, { FC } from 'react';
-import styles from './Portfolio.module.css';
+import styles from './Example.module.css';
 
 type ExampleProps = {
   img : string,
-  text: string
+  text: string,
+  alt: string
 }
  
 const Example: FC<ExampleProps> = (props) => {
-  const { img, text } = props;
+  const { img, alt, text } = props;
 
   return (
     <div className={styles.example}>
-      <img src={require(`../../assets/images/${img}`).default} alt={img.split('.')[0]} />
+      <img src={img} alt={alt} />
       <div className={styles.oneLineText}>
         <h3 className={styles.exampleText}>
           {text}

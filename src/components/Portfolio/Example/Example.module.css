@@ -1,0 +1,29 @@
+.example {
+  margin: 0 0 70px 0;
+}
+
+.oneLineText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 24px 0 0 0;
+}
+
+.exampleText {
+  margin: 0;
+
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.exampleLink {
+  font-family: "Gilroy";
+  font-size: 18px;
+  line-height: 21px;
+  color: #49ad09;
+}

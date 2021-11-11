@@ -3,7 +3,7 @@ import styles from './Portfolio.module.css';
 
 import PageLayout from '../PageLayout';
 import SectionHeader from '../SectionHeader';
-import ExampleContainer from './ExampleContainer';
+import ExampleContainer from './ExampleContainer/ExampleContainer';
 import Button from '../Button';
  
 const Portfolio: FC = () => {
