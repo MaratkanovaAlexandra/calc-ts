@@ -1,0 +1,54 @@
+.links {
+  width: 236px;
+}
+
+.footerText {
+  margin: 0 0 64px;
+
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #313131;
+}
+
+.footerLogo {
+  font-family: "Gilroy";
+  font-weight: 700;
+
+  margin: 0 0 35px;
+  cursor: default;
+}
+
+.linkBtn {
+  width: 28px;
+  height: 28px;
+
+  margin: 0 15px 0 0;
+
+  background-color: #f2f2f2;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.linkBtn:hover {
+  background-color: #e4e4e4;
+  border: 1px solid #e4e4e4;
+}
+
+.facebook {
+  background-image: url(../../../../assets/icons/facebook.svg);
+}
+
+.twitter {
+  background-image: url(../../../../assets/icons/twitter.svg);
+}
+
+.linkedin {
+  background-image: url(../../../../assets/icons/linkedin.svg);
+}

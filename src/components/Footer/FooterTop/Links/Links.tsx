@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import styles from './Footer.module.css';
+import styles from './Link.module.css';
 import LinkBtn from './LinkBtn';
 
 const Links: FC = () => {

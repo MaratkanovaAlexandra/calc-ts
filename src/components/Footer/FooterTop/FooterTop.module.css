@@ -1,0 +1,12 @@
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 0 77px;
+}
+
+@media (max-width: 650px) {
+  .footerTop {
+    justify-content: space-around;
+  }
+}

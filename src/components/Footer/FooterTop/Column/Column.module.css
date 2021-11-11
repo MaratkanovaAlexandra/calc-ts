@@ -1,0 +1,29 @@
+.column {
+  width: 114px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.columnText {
+  display: block;
+  margin: 0 0 28px;
+
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #313131;
+  text-decoration: none;
+}
+
+.columnTitle {
+  margin: 0 0 39px;
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #1c1c1d;
+}

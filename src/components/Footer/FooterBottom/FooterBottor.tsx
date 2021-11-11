@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import styles from './Footer.module.css';
+import styles from './FooterBottom.module.css';
 import cn from 'clsx'
  
 const FooterBottom: FC = () => {

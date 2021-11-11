@@ -1,0 +1,20 @@
+.footerBottom {
+  padding: 40px 0;
+  border-top: 1px solid #ededed;
+}
+
+.bottomText {
+  display: block;
+  margin: 0 0 28px;
+
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #313131;
+  text-decoration: none;
+
+  margin: 0;
+  text-align: center;
+}

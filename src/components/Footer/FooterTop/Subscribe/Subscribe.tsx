@@ -1,10 +1,10 @@
 import React, { FC } from 'react';
-import styles from './Footer.module.css';
+import styles from './Subscribe.module.css';
 
 const Subscribe: FC = () => {
   return (
     <div>
-      <p className={styles.colomnTitle}>
+      <p className={styles.columnTitle}>
         Get in touch
       </p>
       <div className={styles.intupForm}>
@@ -14,5 +14,5 @@ const Subscribe: FC = () => {
     </div>
   );
 }
- 
+
 export default Subscribe;
