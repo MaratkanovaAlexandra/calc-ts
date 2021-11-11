@@ -1,19 +1,23 @@
 import React, { FC } from 'react';
-import cn from 'clsx';
+import PageLayout from '../PageLayout';
+
+import Chase from '../../assets/icons/chase.svg';
+import Asana from '../../assets/icons/asana.svg';
+import Google from '../../assets/icons/google.svg';
+import Buzzfeed from '../../assets/icons/buzzfeed.svg';
+import Walmart from '../../assets/icons/walmart.svg';
 
 import styles from './Logos.module.css';
-
-import PageLayout from '../PageLayout';
 
 const Logos: FC = () => {
   return (
     <PageLayout>
       <div className={styles.logos}>
-        <div className={cn(styles.logo, styles.chase)} />
-        <div className={cn(styles.logo, styles.asana)} />
-        <div className={cn(styles.logo, styles.google)} />
-        <div className={cn(styles.logo, styles.buzzfeed)} />
-        <div className={cn(styles.logo, styles.walmart)} />
+        <img src={Chase} alt="Chase" />
+        <img src={Asana} alt="Asana" />
+        <img src={Google} alt="Google" />
+        <img src={Buzzfeed} alt="Buzzfeed" />
+        <img src={Walmart} alt="Walmart" />
       </div>
     </PageLayout>
   );
