@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
-import styles from './Intro.module.css';
-import Button from '../Button';
+import styles from './Header.module.css';
+import Button from '../../Button';
 
 const Header: FC = () => {
   return ( 

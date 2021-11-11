@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  box-sizing: content-box;
+  height: 58px;
+  padding-top: 30px;
+
+  font-size: 18px;
+  line-height: 21px;
+  color: #313131;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: 28px;
+
+  list-style: none;
+
+  flex: 44.8% 0 0;
+}
+
+.navItem {
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navItem:hover {
+  color: #49ad09;
+}
+
+.logo {
+  font-family: "Gilroy";
+  font-weight: 800;
+  flex: 39.7% 0 0;
+  cursor: default;
+}

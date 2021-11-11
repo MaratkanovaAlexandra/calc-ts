@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import styles from './Intro.module.css';
+import styles from './Welcome.module.css';
 
 type VideoButtonProps = {
   text: string
