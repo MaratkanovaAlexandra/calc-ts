@@ -1,9 +1,10 @@
 import React, { FC } from 'react';
-import styles from './Pricing.module.css';
 
-import TariffCard from './TariffCard';
-import TariffData from './TariffData'
- 
+import TariffCard from '../TariffCard';
+import TariffData from '../TariffData';
+
+import styles from './Tariffs.module.css';
+
 const Tariffs: FC = () => {
   return (
     <div className={styles.tariffs}>

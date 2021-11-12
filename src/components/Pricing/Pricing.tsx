@@ -3,7 +3,7 @@ import styles from './Pricing.module.css';
 
 import PageLayout from '../PageLayout';
 import SectionHeader from '../SectionHeader';
-import Tariffs from './Tariffs';
+import Tariffs from './Tariffs/Tariffs';
  
 const Pricing: FC = () => {
   return (  
