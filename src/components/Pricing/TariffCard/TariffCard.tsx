@@ -27,7 +27,7 @@ const TariffCard: FC<TariffCardProps> = (props) => {
       <ul className={styles.optionsList}>
         {getOptions(optionsMode).map((option) => <li>{option}</li> )}
       </ul>
-      <Button text={getBtnText(price)} size="big" type={buttonMode} className={styles.buttonPosition} />
+      <Button children={getBtnText(price)} size="big" type={buttonMode} className={styles.buttonPosition} />
     </div>
   );
 }

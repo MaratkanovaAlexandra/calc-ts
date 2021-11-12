@@ -33,27 +33,31 @@
 }
 
 .btnContainer {
+  display: flex;
+  align-items: center;
   width: 406px;
   margin: 0 auto;
   padding-bottom: 227px;
 }
 
-.videoBtn {
-  height: 58px;
+.video {
+  display: block;
   width: 181px;
   border-color: transparent;
   background-color: transparent;
+  text-decoration: none;
 
   font-family: "Gilroy";
   font-size: 18px;
   line-height: 21px;
+  text-align: center;
 
   color: #514040;
   transition: 0.3s;
   cursor: pointer;
 }
 
-.videoBtn:hover {
+.video:hover {
   color: #49ad09;
 }
 

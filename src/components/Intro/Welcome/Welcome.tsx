@@ -2,7 +2,6 @@ import React, { FC } from 'react';
 
 import styles from './Welcome.module.css';
 import Button from '../../Button';
-import VideoButton from './VideoBotton';
 
 const Welcome: FC = () => {
   return (
@@ -15,8 +14,11 @@ const Welcome: FC = () => {
         Squared heel and toe. Pointed toes. Padded insole with geometrical design. 
       </p>
       <div className={styles.btnContainer}>
-        <Button text="Contact Us" type="green" size="big"/>
-        <VideoButton text="Watch Video"/>
+        <Button children="Contact Us" type="green" size="big"/>
+        <a href="." className={styles.video}>
+          <span className={styles.underLine}>Watch Video</span> ▸
+        </a>
+        {/**/}
       </div>
     </>
   );

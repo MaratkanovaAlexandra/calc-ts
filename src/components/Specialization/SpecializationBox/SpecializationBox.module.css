@@ -1,0 +1,48 @@
+.box {
+  width: 384px;
+  height: 332px;
+
+  padding: 40px 30px;
+  margin: 0 0 40px 0;
+
+  border: 1px solid #ededed;
+  border-radius: 5px;
+
+  transition: 0.2s;
+}
+
+.box:hover {
+  box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+  border-color: #fff;
+}
+
+.box:hover > .boxLink {
+  color: #49ad09;
+}
+
+.boxHead {
+  display: flex;
+  margin: 0 0 30px 0;
+}
+
+.boxHeadText {
+  margin: 0 0 0 15px;
+
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 147.9%;
+}
+
+.boxText {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 147.9%;
+
+  color: #514040;
+}
+
+.boxLink {
+  text-decoration-line: underline;
+}

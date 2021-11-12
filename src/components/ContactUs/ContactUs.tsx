@@ -10,7 +10,7 @@ const ContactUs: FC = () => {
     <div className={styles.container}>
       <PageLayout className={styles.center}>
         <SectionHeader title='Need a little more home to grow?' subTitle='' className={styles.headerWidth} />
-        <Button text="Contact Us" type='green' size='big' className={styles.btnPosition} />
+        <Button children="Contact Us" type='green' size='big' className={styles.btnPosition} />
       </PageLayout>
     </div>
   );

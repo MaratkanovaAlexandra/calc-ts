@@ -14,7 +14,7 @@ const Header: FC = () => {
         <li className={styles.navItem}>Contact</li>
         <li className={styles.navItem}>Sign in</li>
       </nav>
-      <Button text="Sign up" type="green" size="small"/>
+      <Button children="Sign up" type="green" size="small"/>
     </header>
   );
 }
